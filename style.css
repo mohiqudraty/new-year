@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Crimson Text", serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* banner style start  */
+.banner-container {
+  background-image: url("./images/banner/banner1.png");
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner-info {
+  padding: 0 15% 0 50%;
+}
+.banner-title {
+  font-weight: 900;
+  font-size: 60px;
+  padding: 30px 0 20px 40px;
+}
+.banner-description {
+  padding-left: 30px;
+  color: #444343;
+}
+.btn {
+  padding: 18px 25px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background: #f15b22;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* banner style end  */
+/* banner2 sryle start  */
+.banner2-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+  padding: 70px 5% 5px 10%;
+}
+.banner2-img {
+  width: 500px;
+}
+.banner2-info {
+  padding: 200px 220px 80px 100px;
+}
+.banner2-title {
+  margin-bottom: 20px;
+}
+.banner2-description {
+  margin-bottom: 15px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0 0 5px 0;
+  gap: 10px;
+}
+/* banner2 style end  */
+/* my plan style  start */
+.my-plan-container {
+  padding: 50px 10%;
+}
+.my-plan-title {
+  text-align: center;
+  font-size: 40px;
+}
+.my-plan-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 70px;
+  padding-top: 50px;
+  line-height: 40px;
+}
+.box > h1 {
+  font-size: 30px;
+}
+.box > p {
+  color: #444343;
+  font-size: 20px;
+}
+/* my plan style  end */
+/* call now style start  */
+.call-now-containar {
+  background-image: url("./images/watch.png"), url("./images/gradient2.png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 300px;
+  margin: 50px auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.call-now-inside {
+  padding: 0 50% 0 65px;
+}
+.call-now-inside h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.call-now-btn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* call now style end  */
+/* footer style start  */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 10%;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+.future {
+  padding-right: 15%;
+}
+.future h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.future p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.future img {
+  margin-right: 10px;
+}
+.subscribe {
+  padding-right: 10%;
+}
+.subscribe h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.email {
+  padding: 15px 50px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+/* footer style end  */
